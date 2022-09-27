@@ -1,0 +1,262 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="561px" height="211px" viewBox="-0.5 -0.5 561 211" content="&lt;mxfile&gt;&lt;diagram id=&quot;lD5bX9TLTiPb9YWIXgAu&quot; name=&quot;Page-1&quot;&gt;7VpNs5owFP01zLQLZyABtUs/2003daZdRwiQaSA0BMX++iYQVL6evhmfw1g2CCe5uTf3Xs5B1ICrKP/KURJ+Zx6mBjC93IBrAwDoAHlUwKkE5jOnBAJOvBKyLsCO/MUaNDWaEQ+ntYmCMSpIUgddFsfYFTUMcc6O9Wk+o3WvCQpwC9i5iLbRX8QTod6FY17wb5gEYeXZMvVIhKrJGkhD5LHjFQQ3BlxxxkR5FuUrTFXuqryUdtue0XNgHMfiHgNdiAOimd6bAaZUmi4TFZ046S1P/2QqpGWEeEBiAy7kqJnk8ijBYmMKnwiWlGP21ZjAuZggSgJt58rYML+sKc8C/Vl49pmMvYGlCYqVKUVpWgvIDdEbS/WaHZp2VUau153EsnE7Fl8BY7FcI4EqNzK/pae69x54aHtZnl3s+Z1b6Ie7iifhpIl55NDZYO9tlv1b3bNjEVZ1sm4H2FpHYkWMdfTeu+L6WNwLvfF3pbyVrYe5RUJwss8Etp7rDjzXHex2B2qOwAFzQSSrL8p2WxfstdTNt6bYV1ZMzvJpwdE+kdxZdpjWJAvo6y2KCFVq9hNzD8VIwqGIqJqiZkjDFaOMF36h7/vAdc8RqTBw3kvg1lkWpJxi2dGCn+SUyqASHS2loJKa40WYrEo3w7ooaUHUYhic177ohTzRktEtH3CUj1E+Xl4+wO0AhyofL8h4YH6b8YDdxXizBzCePTLeyHivz3jodoRDpbzXfmIeCKFvt5vFavsgQv/SIHTnzkfY+QP43Bn5fOTz1+fz/cjnw+TzJ78B+Sh39n+jVrZ1h1qZXV8/HvHCZTrK1ShXLy9X8HaAQ1WrgTDeI1+4OHaD8Z76innWYrwtCTKOy+ptchQlMtnALO9vcxMLIghO5emnArLNH5nEIvy5VRzVu/UspoKz37jKY8xi3EithhoFbFY5Ip6nnCyPIRF4lyBXeTxypIrPWRZ7WO3OrCqtQ7L6K/0BvxTAebuMzrSjjPD9VZSXl9+wi7GrPwLAzT8=&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <rect x="0" y="0" width="110" height="110" fill="#fff2cc" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 112px; height: 110px; padding-top: 0px; margin-left: 0px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left; width: 110px; height: 110px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; width: 100%; height: 100%; white-space: nowrap;">
+                                <p style="margin: 0px ; margin-top: 4px ; text-align: center">
+                                    <font>
+                                        <span class="char">
+                                            <span id="char-node" class="vchar">
+                                                «Data
+                                            </span>
+                                        </span>
+                                        <span class="char">
+                                            <span id="char-node" class="vchar">
+                                                »
+                                                <br/>
+                                            </span>
+                                        </span>
+                                    </font>
+                                </p>
+                                <div style="text-align: center">
+                                    <b>
+                                        <font>
+                                            SomeData1
+                                        </font>
+                                    </b>
+                                </div>
+                                <p style="margin: 0px 0px 0px 4px">
+                                    <br/>
+                                </p>
+                                <p style="margin: 0px 0px 0px 4px">
+                                    attribute1
+                                </p>
+                                <p style="margin: 0px 0px 0px 4px">
+                                    attribute2
+                                </p>
+                                <p style="margin: 0px 0px 0px 4px">
+                                    attribute3
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="0" y="12" fill="rgb(0, 0, 0)" font-family="Verdana" font-size="12px">
+                    «Data»...
+                </text>
+            </switch>
+        </g>
+        <rect x="130" y="0" width="240" height="170" fill="#fff2cc" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 242px; height: 170px; padding-top: 0px; margin-left: 130px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left; width: 240px; height: 170px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; width: 100%; height: 100%; white-space: nowrap;">
+                                <p style="margin: 0px ; margin-top: 4px ; text-align: center">
+                                    <font>
+                                        <span class="char">
+                                            <span id="char-node" class="vchar">
+                                                «Data
+                                            </span>
+                                        </span>
+                                        <span class="char">
+                                            <span id="char-node" class="vchar">
+                                                »
+                                                <br/>
+                                            </span>
+                                        </span>
+                                    </font>
+                                </p>
+                                <div style="text-align: center">
+                                    <b>
+                                        <font>
+                                            SomeData2
+                                        </font>
+                                    </b>
+                                </div>
+                                <p style="margin: 0px 0px 0px 4px">
+                                    <br/>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="130" y="12" fill="rgb(0, 0, 0)" font-family="Verdana" font-size="12px">
+                    «Data»...
+                </text>
+            </switch>
+        </g>
+        <rect x="140" y="50" width="110" height="80" fill="#ffeacf" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 112px; height: 80px; padding-top: 50px; margin-left: 140px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left; width: 110px; height: 80px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; width: 100%; height: 100%; white-space: nowrap;">
+                                <p style="margin: 0px ; margin-top: 4px ; text-align: center">
+                                    <font>
+                                        <span class="char">
+                                            <span id="char-node" class="vchar">
+                                                «Data
+                                            </span>
+                                        </span>
+                                        <span class="char">
+                                            <span id="char-node" class="vchar">
+                                                »
+                                                <br/>
+                                            </span>
+                                        </span>
+                                    </font>
+                                </p>
+                                <div style="text-align: center">
+                                    <b>
+                                        <font>
+                                            SomeData2a
+                                        </font>
+                                    </b>
+                                </div>
+                                <p style="margin: 0px 0px 0px 4px">
+                                    <br/>
+                                </p>
+                                <p style="margin: 0px 0px 0px 4px">
+                                    attribute1
+                                </p>
+                                <p style="margin: 0px 0px 0px 4px">
+                                    attribute2
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="140" y="62" fill="rgb(0, 0, 0)" font-family="Verdana" font-size="12px">
+                    «Data»...
+                </text>
+            </switch>
+        </g>
+        <rect x="260" y="50" width="100" height="110" fill="#ffeacf" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 102px; height: 110px; padding-top: 50px; margin-left: 260px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left; width: 100px; height: 110px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; width: 100%; height: 100%; white-space: nowrap;">
+                                <p style="margin: 0px ; margin-top: 4px ; text-align: center">
+                                    <font>
+                                        <span class="char">
+                                            <span id="char-node" class="vchar">
+                                                «Data
+                                            </span>
+                                        </span>
+                                        <span class="char">
+                                            <span id="char-node" class="vchar">
+                                                »
+                                                <br/>
+                                            </span>
+                                        </span>
+                                    </font>
+                                </p>
+                                <div style="text-align: center">
+                                    <b>
+                                        <font>
+                                            SomeData2b
+                                        </font>
+                                    </b>
+                                </div>
+                                <p style="margin: 0px 0px 0px 4px">
+                                    <br/>
+                                </p>
+                                <p style="margin: 0px 0px 0px 4px">
+                                    attribute1
+                                </p>
+                                <p style="margin: 0px 0px 0px 4px">
+                                    attribute2
+                                </p>
+                                <p style="margin: 0px 0px 0px 4px">
+                                    attribute3
+                                </p>
+                                <p style="margin: 0px 0px 0px 4px">
+                                    attribute4
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="260" y="62" fill="rgb(0, 0, 0)" font-family="Verdana" font-size="12px">
+                    «Data»...
+                </text>
+            </switch>
+        </g>
+        <rect x="390" y="0" width="110" height="110" fill="#fff2cc" stroke="rgb(0, 0, 0)" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe flex-start; width: 112px; height: 110px; padding-top: 0px; margin-left: 390px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left; width: 110px; height: 110px; overflow: hidden;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; width: 100%; height: 100%; white-space: nowrap;">
+                                <p style="margin: 0px ; margin-top: 4px ; text-align: center">
+                                    <font>
+                                        <span class="char">
+                                            <span id="char-node" class="vchar">
+                                                «Data
+                                            </span>
+                                        </span>
+                                        <span class="char">
+                                            <span id="char-node" class="vchar">
+                                                »
+                                                <br/>
+                                            </span>
+                                        </span>
+                                    </font>
+                                </p>
+                                <div style="text-align: center">
+                                    <b>
+                                        <font>
+                                            SomeData3
+                                        </font>
+                                    </b>
+                                </div>
+                                <p style="margin: 0px 0px 0px 4px">
+                                    <br/>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="390" y="12" fill="rgb(0, 0, 0)" font-family="Verdana" font-size="12px">
+                    «Data»...
+                </text>
+            </switch>
+        </g>
+        <rect x="0" y="180" width="560" height="30" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 558px; height: 1px; padding-top: 195px; margin-left: 2px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Verdana; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; font-weight: bold; white-space: normal; overflow-wrap: normal;">
+                                Figure: Example Data Entities (Data@Runtime)
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="2" y="199" fill="rgb(0, 0, 0)" font-family="Verdana" font-size="12px" font-weight="bold">
+                    Figure: Example Data Entities (Data@Runtime)
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Text is not SVG - cannot display
+            </text>
+        </a>
+    </switch>
+</svg>
