@@ -11,10 +11,8 @@
   - [Step 1 and Step 3](#step-1-and-step-3)
   - [Step 2](#step-2)
   - [Example](#example)
-  - [Helpful hints](#helpful-hints)
-    - [Use the ADF tool libraries for diagrams.net with the VS Code plugin](#use-the-adf-tool-libraries-for-diagramsnet-with-the-vs-code-plugin)
-    - [Working with dark mode](#working-with-dark-mode)
-    - [Generating PDF from Markdown](#generating-pdf-from-markdown)
+  - [ADF tool libraries within VS Code](#adf-tool-libraries-within-vs-code)
+  - [Generate PDF documents from Markdown](#generate-pdf-documents-from-markdown)
 - [Presentation-as-code](#presentation-as-code)
 - [Footnote](#footnote)
 
@@ -28,7 +26,7 @@
 
 ## Why documentation-as-code?
 
-Most developers prefer implementing new features over documenting their architecture. If they are also forced to leave their familiar development environment to deal with stubborn Word templates and documents on VPN-protected network drives, the chances of the documentation matching the current state of development are relatively slim. To have an up-to-date, easily accessible documentation, we need something else than this.
+Most developers prefer implementing new features over documenting their architecture. If they are additionally forced to leave their familiar development environment to deal with stubborn Word templates and documents on VPN-protected network drives, the chances of the documentation matching the current state of development are relatively slim. To have an up-to-date, easily accessible documentation, we need something else than this.
 
 ## Documentation-as-code, generic implementation
 
@@ -82,121 +80,13 @@ If the developers are not already using [Visual Studio Code](https://code.visual
 
 [This example documentation](https://github.com/neshanjo/what2eat/blob/with-cache/doc/architecture-documentation.md) is written in Markdown and directly embeds figures made with Diagrams.net.
 
-### Helpful hints
+### ADF tool libraries within VS Code
 
-There are some hints from using this approach in practice.
+See [Use the ADF tool libraries for diagrams.net with the VS Code plugin](./VS-Code-ADF-Diagrams-net.md).
 
-#### Use the ADF tool libraries for diagrams.net with the VS Code plugin
+### Generate PDF documents from Markdown
 
-To configure the [ADF tool libraries for diagrams.net](https://github.com/architecture-decomposition-framework/adf-diagramsnet) with the VS Code plugin, you have to download the xml file from the libraries directory to your computer and then configure them in the VS Code settings.json:
-
-```json
-  "hediet.vscode-drawio.customLibraries": [
-    {
-      "file": "c:\\Misc\\adf-diagramsnet\\libraries\\ADF_SW@RT.xml",
-      "libName": "ADF SW@RT"
-    },
-    {
-      "file": "c:\\Misc\\adf-diagramsnet\\libraries\\ADF_Env@RT.xml",
-      "libName": "ADF Env@RT"
-    },
-    {
-      "file": "c:\\Misc\\adf-diagramsnet\\libraries\\ADF_SW@DT.xml",
-      "libName": "ADF SW@DT"
-    },
-    {
-      "file": "c:\\Misc\\adf-diagramsnet\\libraries\\ADF_Env@DT.xml",
-      "libName": "ADF Env@DT"
-    }
-  ]
-```
-
-Note that this is an example configuration for a Windows machine. Replace the paths with the correct ones for your computer.
-
-Heads up: If even one of the file does not exist or the configuration has some error, the Diagrams.net plugin won't start at all. So double check everything!
-
-#### Working with dark mode
-
-Developers often use a dark theme for there IDE. This setting is also respected by the Diagrams.net plugin in VS Code which then renders the diagrams different from they look on the Git server (in light mode).
-
-The recommended approach is to use a light theme for the Diagrams.net plugin only by configuring 
-
-```json
-  "hediet.vscode-drawio.theme": "Kennedy",
-```
-
-in the settings.json of VS Code.
-
-Also, diagrams with transparent background might look unreadable when viewed in dark mode. Therefore make sure, that in every diagram, the background is set to white as demonstrated in [this screenshot](assets/digramsnet_darkmode_fix.png).
-
-#### Generating PDF from Markdown
-
-There are situations where a link to your Git server is not appropriate, e.g. when communicating with external stakeholders. You might want to generate a PDF document instead. There are different approaches with an increasing amount of additional work.
-
-**Solution 1:**
-
-Just print the Git server page from the browser and use the built-in PDF printer (works e.g. with Firefox or Chrome).
-
-For a local (offline) solution, you can use the "Print current document to HTML" in VS Code provided by the Markdown all-in-one plugin, open it in your browser and print it from there.
-
-**Solution 2a:**
-
-Use [Pandoc](https://pandoc.org/) which provides Markdown to PDF conversion. However, this does not work out of the box - you need some additional HTML2PDF converter. The most simple (and smallest) one is [wkhtmltopdf](https://wkhtmltopdf.org/). Furthermore, it is recommended to use some CSS styling to improve the look of the resulting document, e.g. <https://gist.github.com/dashed/6714393> which you can download and put into a file `gh-pandoc.css`.
-
-Assuming that both the `pandoc` and `wkhtml2pdf` command are available in the PATH, you can run
-
-```text
-pandoc documentation.md -o documentation.pdf" -f gfm -t html --css "C:\Scripts\gh-pandoc.css" -V papersize=a4 -V margin-left=20mm -V margin-right=20mm -V margin-top=25mm -V margin-bottom=20mm
-```
-
-to produce a pdf from a Markdown file in only one command that also can be integrated into build server steps (adapt the path to the CSS accordingly).
-
-The **drawback** of this simple method, however, is that **page breaks** in the PDF **can happen** at places where they don't belong, e.g. **after headings**.
-
-**Solution 2b:**
-
-This solution is similar to the previous but uses [pagedjs-cli](https://pagedjs.org/documentation/2-getting-started-with-paged.js/#command-line-version) for PDF generation, which can be configured to avoid page breaks after headings.
-
-Add this to the CSS file used to style the HTML:
-
-```css
-h1, h2, h3, h4, h5, h6 {
-  page-break-after: avoid;
-}
-
-```
-
-Optionally configure the page layout with this addition CSS code:
-
-```css
-/* for pagedjs, see https://pagedjs.org/documentation/5-web-design-for-print/ */
-@page {
-  size: A4;
-  /* These values are based on experimentation to place the text 
-     with similar margins on all sides, but a slightly larger margin
-     on top */
-  margin-top: 20mm;
-  margin-bottom: 5mm;
-  margin-left: 10mm;
-  margin-right: 20mm;
-}
-
-```
-
-Assuming that both the `pandoc` and `wkhtml2pdf` command are available in the PATH, , you can finally use this shell script to generate the pdf file (can be run in Git bash in windows), while making sure to adapt the path to the css file:
-
-```bash
-#!/bin/sh
-currentMillis=$(date +%s%3N)
-tempFile="${1%%\.md}-${currentMillis}.html"
-pandoc "$1" -o "$tempFile" -f gfm -t html 
-pagedjs-cli -i "$tempFile" -o "${1%%\.md}.pdf" --style "C:\Scripts\gh-md.css"
-rm -f "${tempFile}"
-```
-
-**Solution 2c:**
-
-This solution is similar to the previous solutions but uses LaTeX for PDF generation, which should result into much better formatting quality, but also requires a full LaTeX installation on all machines that are used to generated PDFs. This approach has not been tested by the writer of this guide yet, but detailed instructions can be found on <https://learnbyexample.github.io/customizing-pandoc/>.
+See [Generate PDF from Markdown](./Generate-pdf-from-markdown.md)
 
 ## Presentation-as-code
 
