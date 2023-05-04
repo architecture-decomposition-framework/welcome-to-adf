@@ -1,6 +1,6 @@
 # Elements and relations reference (Architecture Decomposition Framework)
 
-Version 1.0.0
+Version 1.1.0
 
 - [Elements and relations reference (Architecture Decomposition Framework)](#elements-and-relations-reference-architecture-decomposition-framework)
   - [Overview](#overview)
