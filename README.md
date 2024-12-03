@@ -26,6 +26,7 @@
 ## Tools
 
 - [ADF tool libraries for diagrams.net (formerly known as draw.io)](https://github.com/architecture-decomposition-framework/adf-diagramsnet), so that you can create ADF diagrams easily in [Diagrams.net](https://www.diagrams.net/).
+- [ADF elements predefined for PlantUML](https://github.com/architecture-decomposition-framework/adf-plantuml), allowing you to create ADF diagrams using [PlantUML](https://plantuml.com/).
 - [ADF Documentation-as-code](adf-doc-as-code/Doc-as-code.md), a suggested toolchain for a light-weight, low-barrier entry into architecture documentation as close to the source code as possible, using Markdown, Diagrams.net, GitLab/GitHub (or any other Git server capable of rendering Markdown), VS Code plus Plugins (or any other IDE with Markdown support) and Marp (for presentations - optional)
 
 ## Further resources

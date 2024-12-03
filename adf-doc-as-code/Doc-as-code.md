@@ -66,6 +66,8 @@ As the previous section already suggests, we use [Markdown](https://en.wikipedia
 
 As for diagrams, we use [Diagrams.net (formerly known as draw.io)](https://www.diagrams.net/) since it can save diagrams as SVG and PNG files with the diagram itself embedded. Thus, we can open the SVG (or PNG) file, edit the diagram and it updated the SVG (or PNG) as well as the embedded diagram. Consequently, there is no need of an additional "generate SVG (or PNG) file" step - we can immediately embed the SVG (or PNG) into the markdown file.
 
+> *Diagrams-as-Code*: To go even one step further, we can generate diagrams from code, too. There are even [predefined ADF elements for PlantUML](https://github.com/architecture-decomposition-framework/adf-plantuml) (see how this can look in the [example documentation with PlantUML diagrams](https://github.com/neshanjo/what2eat/blob/with-cache/doc-plantuml/architecture-documentation-plantuml.md)). The [VS Code PlantUML extension](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml) is highly recommended.
+
 Diagrams.net runs without installation in any web browser and can be installed as desktop application, however, we recommend to use one of the (unofficial) IDE plugins to be able to edit the diagrams without leaving the IDE.
 
 If the developers are not already using [Visual Studio Code](https://code.visualstudio.com/) and it is feasible for them to (also) use this IDE, we recommend to use it for Markdown editing, because there are some excellent plugins that facilitate the editing a lot:
